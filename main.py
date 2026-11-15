@@ -59,6 +59,7 @@ elif descuento > 0:
     mensaje = "🥳[green]¡Felicidades! Se ha aplicado un descuento del 10 %.[/green]"
 else:
     mensaje = "☺️[blue]Gracias por tu compra. El descuento se aplica a partir de 10 euros.[/blue]"
+
 tabla = Table(title="Resumen del pedido", title_style="bold black")
 tabla.add_column("Café", header_style="bold black on #ADD8E6")
 tabla.add_column("Bocadillo", header_style="bold black on #ADD8E6")
